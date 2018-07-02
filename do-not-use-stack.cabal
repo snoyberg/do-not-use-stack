@@ -1,0 +1,10 @@
+cabal-version:        >=1.8
+name:                 do-not-use-stack
+version:              0
+build-type:           Custom
+
+custom-setup
+  setup-depends:      Cabal >= 1.10, base == 4.*
+
+library
+  -- ...
